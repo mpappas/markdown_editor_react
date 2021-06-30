@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "jest-watch": "jest --watch",
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
