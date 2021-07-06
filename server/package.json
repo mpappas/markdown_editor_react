@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "jest --runInBand --detectOpenHandles",
     "jest-watch": "jest --watch",
     "start": "nodemon src/server.js"
   },
@@ -13,7 +13,8 @@
   "dependencies": {
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "http-terminator": "^3.0.0"
   },
   "devDependencies": {
     "jest": "^27.0.6",
